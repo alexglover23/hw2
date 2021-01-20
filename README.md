@@ -1,1 +1,1 @@
-# hw2
+# hw2 my netlify site lives here: https://youthful-swirles-f62fad.netlify.app I applied the tailwind CSS framework per the homework rubric, flexbox, added a form, and published to netlify
