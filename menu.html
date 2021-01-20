@@ -14,7 +14,7 @@
         <div class="sm:flex sm:m-0 m-4 bg-gray-100">
            
             <div class="sm:w-1/2 mx-auto p-4">
-                <img class="rounded-lg" src="https://stansdonuts.com/wp-content/uploads/2018/08/Coconut-Cake.jpg">
+                <img class="rounded-lg mx-auto" src="https://stansdonuts.com/wp-content/uploads/2018/08/Coconut-Cake.jpg">
             </div>
 
             <div class="sm:w-1/2 mx-auto p-4">
@@ -33,11 +33,29 @@
             </div>
            
             <div class="sm:w-1/2 sm:text-left p-4 text-center">
-                <p>Navigate to <a class="text-red-300" href="index.html">our homepage.</a></p>
+                <h1 class="font-bold">What flavor are you dreaming of?</h1>
+
+                <form netlify>
+
+                    <label class="block mt-4 font-bold" for="name">What is your name?</label>
+                    <input class="p-2 w-64 border border-gray-400 rounded shadow-xl focus:outline-none focus:ring-purple-500
+                    focus:border-purple-500" type="text" id="name" name="name">
+                    
+                    <label class="block mt-4 font-bold" for="favorite-color">What is your dream flavor?</label>
+                    <input class="p-2 w-64 border border-gray-400 rounded shadow-xl focus:outline-none focus:ring-purple-500
+                    focus:border-purple-500" type="text" id="favorite-color" name="favoriteColor">
+                    
+                    <button class="block mt-4 text-white bg-purple-500 rounded px-4 py-2 sm:mx-0 mx-auto">Submit form!</button>
+
+                </form>
+
+                <p class="mt-12">Navigate to <a class="text-red-300" href="index.html">our homepage.</a></p>
                 <p>Navigate to <a class="text-red-300" href="locations.html">our locations</a> page to find a Stan's near you!</p>
             </div>
 
         </div>   
         
+        
+
     </body>
 </html>
